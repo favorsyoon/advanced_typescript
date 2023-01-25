@@ -1,0 +1,13 @@
+{
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "npx ts-node ./src/*.ts"
+}
+
+/*
+"ignore": [],
+  src안에 여러 파일폴더가 있는데 무시 했으면 좋곘는 파일을 배열안에 넣어준다.
+   "exec": "npx ts-node ./src/*.ts"
+ 명령어를 붙여주면 src안에 있는 모든 타입스크립트파일을실행해준다, 실행을 해준다.
+  */
